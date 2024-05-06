@@ -1,0 +1,111 @@
+Identifier
+ 0   CRN                             11437 non-null  int64 
+
+ Crash information 
+ 1   BELTED_DEATH_COUNT              11437 non-null  int64  
+ 2   BELTED_SUSP_SERIOUS_INJ_COUNT   11437 non-null  int64  
+ 9   FATAL_COUNT 
+ 12  INJURY_COUNT 
+ 16  MAX_SEVERITY_LEVEL              11437 non-null  int64  
+ 17  MCYCLE_DEATH_COUNT              11437 non-null  int64  
+ 18  MCYCLE_SUSP_SERIOUS_INJ_COUNT   11437 non-null  int64  
+ 19  MOTORCYCLE_COUNT                11437 non-null  int64  
+ 21  NONMOTR_COUNT                   11437 non-null  int64  
+ 22  NONMOTR_DEATH_COUNT             11437 non-null  int64  
+ 23  NONMOTR_SUSP_SERIOUS_INJ_COUNT  11437 non-null  int64  
+ 24  PED_COUNT                       11437 non-null  int64  
+ 25  PED_DEATH_COUNT                 11437 non-null  int64  
+ 26  PED_SUSP_SERIOUS_INJ_COUNT      11437 non-null  int64  
+ 27  PERSON_COUNT                    11437 non-null  int64  
+ 28  POSSIBLE_INJ_COUNT              11437 non-null  int64   
+ 31  SECONDARY_CRASH                 11437 non-null  object 
+ 32  SUSP_MINOR_INJ_COUNT            11437 non-null  int64  
+ 33  SUSP_SERIOUS_INJ_COUNT          11437 non-null  int64  
+ 34  TOT_INJ_COUNT                   11437 non-null  int64  
+ 35  TOTAL_UNITS                     11437 non-null  int64  
+ 36  UNB_DEATH_COUNT                 11437 non-null  int64  
+ 37  UNB_SUSP_SERIOUS_INJ_COUNT      11437 non-null  int64  
+ 38  UNBELTED_OCC_COUNT              11437 non-null  int64  
+ 39  UNK_INJ_DEG_COUNT               11437 non-null  int64  
+ 40  UNK_INJ_PER_COUNT               11437 non-null  int64  
+ 47  ANGLE_CRASH                     11437 non-null  float64
+ 50  BICYCLE
+ 86  VULNERABLE_ROAD_USER_FATAL
+
+Time
+4   CRASH_MONTH
+5   CRASH_YEAR
+6   DAY_OF_WEEK 
+10  HOUR_OF_DAY  
+
+Geo
+3   COUNTY
+7   DEC_LAT 
+8   DEC_LONG
+41  URBAN_AREA
+42  URBAN_RURAL
+15  LOCATION_TYPE
+20  MUNICIPALITY
+
+Age
+57  DRIVER_16YR                     11437 non-null  float64
+58  DRIVER_17YR                     11437 non-null  float64
+59  DRIVER_18YR                     11437 non-null  float64
+60  DRIVER_19YR                     11437 non-null  float64
+61  DRIVER_20YR                     11437 non-null  float64
+62  DRIVER_50_64YR                  11437 non-null  float64
+63  DRIVER_65_74YR                  11437 non-null  float64
+64  DRIVER_75PLUS 
+89  YOUNG_DRIVER 
+
+Behavior
+45  AGGRESSIVE_DRIVING              11437 non-null  float64
+46  ALCOHOL_RELATED
+51  CROSS_MEDIAN
+65  DRUG_RELATED                    11437 non-null  float64
+66  DRUGGED_DRIVER
+75  MARIJUANA_RELATED
+55  DISTRACTED                      11437 non-null  float64
+56  DRINKING_DRIVER
+84  UNBELTED
+85  UNDERAGE_DRNK_DRV
+52  CURVE_DVR_ERROR
+ 
+Environment
+43  WEATHER1
+11  ILLUMINATION 
+68  ILLUMINATION_DARK 
+
+Road
+91  STREET_NAME
+13  INTERSECT_TYPE                  11437 non-null  int64  
+14  LANE_CLOSED                     11437 non-null  int64  
+?29  RELATION_TO_ROAD                11437 non-null  int64  
+30  ROAD_CONDITION 
+44  WORK_ZONE_IND 
+53  CURVED_ROAD                     11437 non-null  float64
+54  DEER_RELATED
+67  ICY_ROAD
+69  INTERSECTION                    11437 non-null  float64
+70  INTERSTATE                      11437 non-null  float64
+71  LANE_DEPARTURE                  11437 non-null  float64
+72  LEFT_TURN
+76  RAMP                            11437 non-null  float64
+77  RAMP_SEGMENT                    11437 non-null  float64
+78  REAR_END                        11437 non-null  float64
+79  ROUNDABOUT                      11437 non-null  float64
+80  RUNNING_RED_LT                  11437 non-null  float64
+81  RUNNING_STOP_SIGN
+87  WET_ROAD                        11437 non-null  float64
+88  WORK_ZONE
+
+Traffic
+48  BACKUP_NONRECURRING             11437 non-null  float64
+49  BACKUP_CONGESTION
+
+Speed
+73  LIMIT_65MPH                     11437 non-null  float64
+74  LIMIT_70MPH
+90  SPEED_LIMIT
+82  SPEEDING                        11437 non-null  float64
+83  SPEEDING_RELATED
