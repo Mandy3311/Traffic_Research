@@ -70,6 +70,8 @@ Behavior
 84  UNBELTED
 85  UNDERAGE_DRNK_DRV
 52  CURVE_DVR_ERROR
+82  SPEEDING                        11437 non-null  float64
+83  SPEEDING_RELATED
  
 Environment
 43  WEATHER1
@@ -98,14 +100,10 @@ Road
 81  RUNNING_STOP_SIGN
 87  WET_ROAD                        11437 non-null  float64
 88  WORK_ZONE
+90  SPEED_LIMIT
+73  LIMIT_65MPH                     11437 non-null  float64
+74  LIMIT_70MPH
 
 Traffic
 48  BACKUP_NONRECURRING             11437 non-null  float64
 49  BACKUP_CONGESTION
-
-Speed
-73  LIMIT_65MPH                     11437 non-null  float64
-74  LIMIT_70MPH
-90  SPEED_LIMIT
-82  SPEEDING                        11437 non-null  float64
-83  SPEEDING_RELATED

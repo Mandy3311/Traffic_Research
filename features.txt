@@ -1,0 +1,32 @@
+# Target
+MAX_SEVERITY_LEVEL categorical
+
+# Features
+
+## Time
+CRASH_MONTH float
+DAY_OF_WEEK float
+HOUR_OF_DAY float
+
+## Socialeconomics
+MUNICIPALITY categorical
+
+## Driver_Behavior
+ALCOHOL_RELATED binary
+CROSS_MEDIAN binary
+DRUG_RELATED binary
+DRUGGED_DRIVER binary
+DRINKING_DRIVER binary
+UNBELTED binary
+SPEEDING binary
+SPEEDING_RELATED binary
+
+## Driving Environment
+ILLUMINATION categorical
+SPEED_LIMIT float
+
+## Built Environment
+LANE_CLOSED binary
+CURVED_ROAD binary
+LANE_DEPARTURE binary
+REAR_END binary
